@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node main.js",
     "checks": "node tests/launcher.js",
-    "zip": "node tests/compress.js"
+    "zip": "node tests/compress.js CORE19-04_quiz_bbdd"
   },
   "private": true,
   "keywords": [
@@ -22,9 +22,8 @@
     "figlet": "^1.2.0",
     "fs-extra": "^6.0.1",
     "mocha": "^5.2.0",
-    "promise-socket": "^3.1.1",
-    "sequelize": "^4.32.7",
-    "sqlite3": "^4.0.4",
+    "sequelize": "^4.42.1",
+    "sqlite3": "^4.0.6",
     "underscore": "^1.8.3"
   }
 }
